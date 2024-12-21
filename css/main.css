@@ -74,7 +74,7 @@ body {
   font-style: normal;
   font-weight: normal;
   line-height: 1.882;
-  color: #000000;
+  color: white;
   margin: 0;
   padding: 0;
 }
@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Frank Ruhl Libre", serif;
   font-weight: 500;
   font-style: normal;
-  color: #000000;
+  color: white;
   font-variant-ligatures: common-ligatures;
   text-rendering: optimizeLegibility;
 }
@@ -188,7 +188,7 @@ p.lead {
   font-size: 2.4rem;
   line-height: 1.833;
   margin-bottom: 3.6rem;
-  color: #000000;
+  color: white;
 }
 
 @media screen and (max-width:1200px) {
@@ -845,9 +845,9 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-  background: #000000;
-  border-color: #000000;
-  color: #ffffff;
+  background: #c70039;
+  border-color: #c70039;
+  color: white;
 }
 
 .btn.btn--primary:hover,
@@ -860,8 +860,9 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-  background: #c70039;
-  border-color: #c70039;
+  background: white;
+  border-color: white;
+  color: #000000;
 }
 
 /* button modifiers
@@ -1511,7 +1512,7 @@ input::-moz-focus-inner {
   font-weight: 500;
   line-height: 1.222;
   margin-top: 0;
-  color: #000000;
+  color: white;
 }
 
 .ss-dark .section-heading,
@@ -2169,7 +2170,7 @@ input::-moz-focus-inner {
 .s-about {
   padding-top: 19.2rem;
   padding-bottom: 16.8rem;
-  background-color: #ffffff;
+  background-color: black;
 }
 
 .s-about .row {
@@ -2177,7 +2178,7 @@ input::-moz-focus-inner {
 }
 
 .s-about > [class*="about-"] {
-  margin-bottom: 15.2rem;
+  margin-bottom: 14.2rem;
 }
 
 .s-about > [class*="about-"]:last-child {
@@ -2192,7 +2193,7 @@ input::-moz-focus-inner {
 }
 
 .about-me__buttons {
-  margin-top: 4.8rem;
+  margin-top: 4.6rem;
 }
 
 .about-me__buttons .column:first-child {
@@ -2228,7 +2229,7 @@ input::-moz-focus-inner {
   display: block;
   width: 1px;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.12);
+  background-color: white;
   position: absolute;
   left: 0;
   top: 0;
@@ -2239,7 +2240,7 @@ input::-moz-focus-inner {
   display: block;
   width: 5.6rem;
   height: 1px;
-  background-color: rgba(0, 0, 0, 0.12);
+  background-color: white;
   position: absolute;
   left: 1px;
   top: 0;
@@ -2250,7 +2251,7 @@ input::-moz-focus-inner {
   width: 6rem;
   height: 6rem;
   border-radius: 50%;
-  border: 1px solid rgba(0, 0, 0, 0.25);
+  border: 1px solid white;
   position: absolute;
   top: -2.2rem;
   left: 5.6rem;
@@ -2271,11 +2272,11 @@ input::-moz-focus-inner {
 }
 
 .timeline__icon--work {
-  background-image: url(../images/icons/icon-briefcase.svg);
+  background-image: url(../images/icons/briefcase.png);
 }
 
 .timeline__icon--education {
-  background-image: url(../images/icons/icon-education.svg);
+  background-image: url(../images/icons/cap.png);
 }
 
 .timeline__block {
@@ -2283,7 +2284,6 @@ input::-moz-focus-inner {
   padding-left: 5.6rem;
   padding-bottom: .8rem;
   margin-top: 2.8rem;
-  min-height: 35.6rem;
 }
 
 .timeline .timeline__block:last-child {
@@ -2293,9 +2293,9 @@ input::-moz-focus-inner {
 .timeline__bullet {
   content: "";
   display: block;
-  width: 3px;
+  width: 4px;
   height: 4.8rem;
-  background-color: #000000;
+  background-color: #c70039;
   position: absolute;
   left: -1px;
   top: 8px;
@@ -2317,7 +2317,7 @@ input::-moz-focus-inner {
   text-transform: uppercase;
   letter-spacing: .3rem;
   margin-bottom: .8rem;
-  color: #000000;
+  color: rgb(192, 186, 186);
 }
 
 .timeline__header h3 {
