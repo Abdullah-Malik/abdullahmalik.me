@@ -74,7 +74,7 @@ body {
   font-style: normal;
   font-weight: normal;
   line-height: 1.882;
-  color: white;
+  color: #121010;
   margin: 0;
   padding: 0;
 }
@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Frank Ruhl Libre", serif;
   font-weight: 500;
   font-style: normal;
-  color: white;
+  color: #121010;
   font-variant-ligatures: common-ligatures;
   text-rendering: optimizeLegibility;
 }
@@ -168,7 +168,7 @@ h4, .h4 {
 
 .timeline__header h4 {
   font-size: 2.1rem;
-  font-family: "Font Awesome 5 Brands";
+  font-family: "auto";
   font-style: italic;
 }
 
@@ -194,7 +194,7 @@ p.lead {
   font-size: 2.4rem;
   line-height: 1.833;
   margin-bottom: 3.6rem;
-  color: white;
+  color: #121010;
 }
 
 @media screen and (max-width:1200px) {
@@ -866,9 +866,9 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-  background: white;
-  border-color: white;
-  color: #000000;
+  background: #585858;
+  border-color: #585858;
+  color: white;
 }
 
 /* button modifiers
@@ -1477,6 +1477,7 @@ input::-moz-focus-inner {
   padding-top: 3.2rem;
   margin-bottom: 8rem;
   position: relative;
+  color: #585858;
 }
 
 .section-heading::before {
@@ -1518,7 +1519,7 @@ input::-moz-focus-inner {
   font-weight: 500;
   line-height: 1.222;
   margin-top: 0;
-  color: white;
+  color: #323232;
 }
 
 .ss-dark .section-heading,
@@ -2176,7 +2177,7 @@ input::-moz-focus-inner {
 .s-about {
   padding-top: 19.2rem;
   padding-bottom: 16.8rem;
-  background-color: #191919;
+  background-color: #ffffff;
 }
 
 .s-about .row {
@@ -2315,7 +2316,7 @@ input::-moz-focus-inner {
 .timeline__header h5 {
   /* font-family: "Roboto", sans-serif; */
   font-style: italic;
-  font-family: 'Font Awesome 5 Brands';
+  font-family: 'auto';
 }
 
 .timeline__header .timeline__timeframe {
@@ -2325,7 +2326,7 @@ input::-moz-focus-inner {
   text-transform: uppercase;
   letter-spacing: .3rem;
   margin-bottom: .8rem;
-  color: rgb(226, 220, 220);
+  color: rgb(69 60 60);
 }
 
 .timeline__header h3 {
@@ -2375,7 +2376,7 @@ input::-moz-focus-inner {
 
   .timeline__header h4 {
     font-size: 2.1rem;
-    font-family: "Font Awesome 5 Brands";
+    font-family: "auto";
     font-style: italic;
   }
 
